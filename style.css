@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+:root {
+  --primary-green: yellowgreen;
+  --primary-yellow: yellow;
+}
+
+body {
+  background-color: var(--primary-green);
+  color: var(--primary-yellow);
+  font-family: 'Aboreto', cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+input,
+label {
+  display: block;
+}
+
+input {
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+#check-number {
+  display: block;
+  margin-top: 1rem;
+  margin: auto;
+  background: transparent;
+  color: var(--primary-yellow);
+  border-color: var(--primary-yellow);
+  border-width: medium;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
